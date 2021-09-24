@@ -1,0 +1,216 @@
+.container{
+    border: 1px solid wheat; 
+    display:inline;
+    float: left; 
+    padding: 20px;
+   
+   }
+   
+   .header{
+       margin-top: -20px;
+         height: 70px;
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+     background: #45484d; /* Old browsers */
+     background: -moz-radial-gradient(center, ellipse cover,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+     background: -webkit-radial-gradient(center, ellipse cover,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+     background: radial-gradient(ellipse at center,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     margin-left: -20px;
+     margin-right:-20px;
+     
+     
+     }
+     .header-logo{
+         background-image: url("Logo.png");
+         background-repeat: no-repeat;
+         height: 200px;
+     }
+     
+     
+     body{
+     
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+     background: #7d7e7d; /* Old browsers */
+     background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+     background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+     background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     
+     }
+     .container{
+     color: azure;
+     font-size: 25px;
+     
+     margin-top: 30px;
+     padding: 10px;
+     height: 320px;
+     background-color: rgb(0, 0, 0);
+     width: 350px;
+     
+     border-radius: 40px;
+     margin-left: 15px;
+     }
+     .container label{
+     
+         margin-left: 30px;
+         
+     }
+     .skills{
+         margin-top: 15px;
+         position: absolute;
+     }
+     .msg{
+         margin-top: 68px;
+         position: absolute;
+         font-size: 20px;
+     
+     }
+     .container input{
+     margin-top: 20px;
+     margin-left: 10px;
+     font-size: 18px;
+     color: cornsilk;
+     background-color: black;
+     border: none;
+     }
+      .skillbox{
+          position: absolute;
+         height: 45px;
+         background-color: #7d7e7d;
+         width: 250px;
+         margin-left: 100px;
+         margin-top: 10px;
+         overflow-x:scroll;
+         overflow-y: hidden;
+        
+     }
+     
+     .skillbox input{
+         background:none;
+         position: absolute;
+         margin-top: 0%;
+         color: #000000;
+         font-weight: 1000;
+     }
+     .msgbox{
+         position: absolute;
+        height: 90px;
+        background-color: #7d7e7d;
+        width: 355px;
+        border-radius: 40px;
+        margin-top: 90px;
+        overflow-y: visible;
+        overflow-x: hidden;
+       
+     }
+     
+     .msgbox input{
+        background:none;
+        position: absolute;
+        margin-top: 2%;
+        color: #000000;
+       margin-left: 10PX;
+        padding: 2px;
+        margin-left: 30px;
+     }
+     .dropbtn {
+         background-color: #000000;
+         color: white;
+         padding: 16px;
+         font-size: 16px;
+         border: none;
+         margin-left: 1300px;
+       margin-top: -70px;
+         border: 2px solid white;
+         width: 180px;
+         position: absolute;
+         
+       }
+       
+       /* The container <div> - needed to position the dropdown content */
+       .dropdown {
+         position: relative;
+         display: inline-block;
+       }
+       
+       /* Dropdown Content (Hidden by Default) */
+       .dropdown-content {
+           margin-left: 1300px;
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         margin-top: -20px;
+       }
+       
+       /* Links inside the dropdown */
+       .dropdown-content input {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         background: none;
+         border: none;
+         text-align: center;
+         font-size: 15px;
+       }
+       .material-icons{
+           font-size: 20px;
+           margin-top: -5px;
+           position: absolute;
+       }
+       
+       
+       .dropdown-content input:hover {background-color: #ddd;}
+       
+       
+       .dropdown:hover .dropdown-content {display: block;}
+       
+      
+      .dropdown:hover .dropbtn {background-color: #858585;}
+   
+      .skillbox::-webkit-scrollbar{
+          width: 0.5px;
+          
+      }
+      .skillbox::-webkit-scrollbar-thumb{
+          background-color: #0e0e0e;
+        
+         border: 2px solid snow;
+      }
+      form.example input[type=text] {
+       padding: 10px;
+       font-size: 17px;
+       border: 1px solid grey;
+       float: left;
+       width: 80%;
+       background: #f1f1f1;
+       margin-top: -70px;
+       margin-left: 120px;
+     }
+     
+     form.example button {
+       float: left;
+       width: 20%;
+       padding: 10px;
+       background: #8b9297;
+       color: white;
+       font-size: 17px;
+       border: 1px solid grey;
+       border-left: none;
+       cursor: pointer;
+       margin-top: -70px;
+       margin-left:330px;
+     }
+     
+     form.example button:hover {
+       background: #000000;
+     }
+     
+     form.example::after {
+       content: "";
+       clear: both;
+       display: table;
+     }

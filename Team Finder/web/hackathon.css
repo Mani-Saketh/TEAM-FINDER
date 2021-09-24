@@ -1,0 +1,70 @@
+.header{
+    margin-top: -20px;
+      height: 70px;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+  background: #45484d; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  margin-left: -20px;
+  margin-right:-20px;
+  
+  
+  }
+  .header-logo{
+      background-image: url("Logo.png");
+      background-repeat: no-repeat;
+      height: 200px;
+  }
+  h1{
+      color: azure;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+ .table1{
+     margin-top: 30px;
+     
+ }
+  th{
+      margin-top: 50px;
+      
+      margin-left: 0px;
+      font-size: 20px;
+     
+      width: 100%;
+  }
+  body{
+     
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+background: #7d7e7d; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+  table, th, td {
+    border: 3px solid rgb(228, 224, 224);
+    border-collapse:collapse ;
+    color: snow;
+    
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+  table{
+      table-layout:fixed;
+      
+  }
+ th{
+     width:fit-content;
+     font-size: 25px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+tbody{
+    font-size: 20px;
+}
